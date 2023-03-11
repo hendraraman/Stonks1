@@ -2,7 +2,7 @@
  
 # Stock Price Prediction App
 
-## This is a simple Streamlit app that predicts stock prices using the Prophet algorithm. The app allows the user to select a stock ticker symbol (e.g. AAPL, GOOG, MSFT), and then predicts the stock price for the next few months. The app also displays the raw data for the selected stock, as well as a plot of the raw data and the forecasted data.
+### This is a simple Streamlit app that predicts stock prices using the Prophet algorithm. The app allows the user to select a stock ticker symbol (e.g. AAPL, GOOG, MSFT), and then predicts the stock price for the next few months. The app also displays the raw data for the selected stock, as well as a plot of the raw data and the forecasted data.
 
 Getting Started
 
