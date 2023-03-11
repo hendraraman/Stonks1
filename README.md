@@ -8,8 +8,7 @@ Getting Started
 
 To run this app, you will need to have Python 3 and the required Python packages are mentioned in the requirements.txt file:
 
-##Acknowledgments:
-
+## Acknowledgments:
 Patrick Loeber
 https://www.youtube.com/watch?v=0E_31WqVzCY&t=605s 
 The Prophet algorithm was developed by Facebook.
