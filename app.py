@@ -4,6 +4,7 @@ import yfinance as yf
 from prophet.plot import plot_plotly
 from prophet import Prophet
 import plotly.graph_objs as go
+
 @st.cache_data
 def load_data(ticker):
     data = yf.download(ticker, start,today)
@@ -12,13 +13,13 @@ def load_data(ticker):
 
 st.write ("Opened")
 
-start = "2015-01-01"
+start = "2017-01-01"
 today = date.today().strftime("%Y-%m-%d")
 
 st.title("Welcome eyyy")
 st.header("This is our Stock Price prediction APP ")
 
-stonks = ("AAPL","GOOG","MSFT")
+stonks = ("BTC-USD","BAJFINANCE.NS","BANKBEES.NS","RELIANCE.NS","NIFTYBEES.NS","CIPLA.NS","MON100.NS")
 selected = st.selectbox("Select the stock for prediction",stonks)
 default_value = 3
 
